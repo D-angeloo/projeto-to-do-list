@@ -62,7 +62,7 @@ select {
    padding: 1.5rem;
    border-radius: 15px;
    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
-   background: linear-gradient(to bottom, #c0ccf3, #ffffff)
+   background: linear-gradient(to bottom, #c0ccf3, #ffffff);
 }
 
 .container header {
@@ -166,4 +166,10 @@ select {
    color: #fff;
    text-decoration: line-through;
    font-style: italic;
+}
+
+
+.todo-list{
+   overflow-y: scroll;
+   max-height: 60vh;
 }
