@@ -1,0 +1,175 @@
+/* GERAL */
+* {
+   padding: 0;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #333;
+   box-sizing: border-box;
+
+}
+
+body {
+   height: 100vh;
+   background-image: url(https://preview.redd.it/bpxxqqvps4h91.gif?width=640&crop=smart&auto=webp&s=e29a6c5b5996e595d29e52030ed4e9abe618e3bd);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+button {
+   background-color: #FDFDFD;
+   color: #102F5e;
+   border: 2px solid #102F5e;
+   padding: .3rem .6rem;
+   font-size: 1rem;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 0.4s;
+}
+
+button:hover {
+   background-color: #102F5e;
+   color: #fff;
+}
+
+button:hover>i {
+   color: #fff;
+}
+
+button i {
+   color: #102F5e;
+   font-weight: bold;
+   pointer-events: none;
+
+}
+
+input,
+select {
+   padding: 0.25rem 0.5rem;
+}
+
+.hide {
+   display: none;
+}
+
+/* TODO HEADER */
+.container {
+   max-width: 450px;
+   margin: 3rem auto;
+   background-color: #fdfdfdfd;
+   padding: 1.5rem;
+   border-radius: 15px;
+   /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+   background: linear-gradient(to bottom, #c0ccf3, #ffffff);
+}
+
+.container header {
+   text-align: center;
+   padding: 0 1rem 1rem;
+   border-bottom: 1px solid #ccc;
+
+}
+
+/* FORMULARIO */
+
+#todoForm,
+#editForm {
+   padding: 1rem;
+   border-bottom: 1px solid #ccc;
+}
+
+#todoForm p,
+#edit-form p {
+   margin-bottom: .5rem;
+   font-weight: bold;
+}
+
+.form-control {
+   display: flex;
+}
+
+.form-control input {
+   margin-right: 0.3rem;
+
+}
+
+#cancel-edit-btn {
+   margin-top: 1rem;
+}
+
+/* todo toolbar */
+#toolbar {
+   padding: 1rem;
+   border-bottom: 1px solid #ccc;
+   display: flex;
+}
+
+#toolbar h4 {
+   margin-bottom: .5rem;
+
+}
+
+#search {
+   border-right: 1px solid #ddd;
+   padding-right: 1rem;
+   margin-right: 1rem;
+   width: 65%;
+   display: flex;
+   flex-direction: column;
+}
+
+#search form {
+   display: flex;
+}
+
+#search input {
+   width: 100%;
+   margin-right: 0.3rem;
+}
+
+#filter {
+   width: 35%;
+   display: flex;
+   flex-direction: column;
+}
+
+#filter select {
+   flex: 1;
+}
+
+/* todo list */
+.todo {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 1rem;
+   border-bottom: 1px solid #ddd;
+   transition: .3s;
+}
+
+.todo h3 {
+   flex: 1;
+   font-size: 1rem;
+}
+
+.todo button {
+   margin-left: 0.4rem;
+}
+
+.done {
+   background-color: #496285;
+}
+
+.done h3 {
+   color: #fff;
+   text-decoration: line-through;
+   font-style: italic;
+}
+
+
+.todo-list{
+   overflow-y: scroll;
+   max-height: 60vh;
+}
