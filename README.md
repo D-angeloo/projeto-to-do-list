@@ -3,7 +3,7 @@
 Uma aplicação de lista de tarefas funcional, projetada para auxiliar na organização diária através de uma interface limpa e intuitiva.
 
 ## 💡 Objetivo do Projeto
-Praticar a manipulação do DOM e a persistência de dados no lado do cliente (client-side), garantindo que as informações não sejam perdidas ao atualizar a página.
+Praticar a manipulação do DOM e a persistência de dados no lado do cliente, garantindo que as informações não sejam perdidas ao atualizar a página.
 
 ## 🚀 Tecnologias
 - **HTML5**: Estrutura da aplicação.
