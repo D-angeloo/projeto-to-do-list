@@ -18,7 +18,7 @@ Praticar a manipulação do DOM e a persistência de dados no lado do cliente (c
 - Salvamento automático no navegador.
 
 ## 🔗 Demonstração
-👉 [Acesse o To-Do List aqui](https://d-angeloo.github.io/projeto-to-do-list/)
+👉 [Acesse a To-Do List aqui](https://d-angeloo.github.io/projeto-to-do-list/)
 
 ---
 Desenvolvido por Davi Angelo
