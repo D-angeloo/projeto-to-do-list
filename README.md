@@ -21,4 +21,4 @@ Praticar a manipulação do DOM e a persistência de dados no lado do cliente, g
 👉 [Acesse a To-Do List aqui](https://d-angeloo.github.io/projeto-to-do-list/)
 
 ---
-Desenvolvido por Davi Angelo
+Desenvolvido por Davi Angelo :)
